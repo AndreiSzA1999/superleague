@@ -55076,7 +55076,7 @@ var $async$hs=P.a7(function(c2,c3){if(c2===1)return P.aa(c3,r)
 while(true)switch(s){case 0:b7=H.a([],t.F_)
 b8=t.N
 s=3
-return P.a9(G.agY(P.kA("https://www.kickalgor.com/club-rating/the-ka-football-club-global-rating-2021/",0,null),P.I(["content-type","application/json","Access-Control-Allow-Origin","true"],b8,b8)),$async$hs)
+return P.a9(G.agY(P.kA("https://www.kickalgor.com/club-rating/the-ka-football-club-global-rating-2021/",0,null),P.I(["content-type","application/json","Access-Control-Allow-Origin","https://andreisza1999.github.io"],b8,b8)),$async$hs)
 case 3:b9=c3
 c0=V.ahk(B.agS(U.afW(b9.e).c.a.i(0,"charset")).cs(0,b9.x))
 b8=t.s
