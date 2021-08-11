@@ -11301,7 +11301,7 @@ this.b=b},
 tp:function tp(a,b,c){this.f=a
 this.b=b
 this.a=c},
-agY:function(a,b){return G.a6E(new G.a70(a,b),t.Wd)},
+agY:function(a){return G.a6E(new G.a70(a,null),t.Wd)},
 a6E:function(a,b){return G.asQ(a,b,b)},
 asQ:function(a,b,c){var s=0,r=P.ad(c),q,p=2,o,n=[],m,l
 var $async$a6E=P.a7(function(d,e){if(d===1){o=e
@@ -55033,7 +55033,7 @@ pl:function(a){return this.Lm(a)},
 Lm:function(a){var s=0,r=P.ad(t.y5),q,p=this,o
 var $async$pl=P.a7(function(b,c){if(b===1)return P.aa(c,r)
 while(true)switch(s){case 0:s=3
-return P.a9(G.agY(P.kA(a,0,null),null),$async$pl)
+return P.a9(G.agY(P.kA(a,0,null)),$async$pl)
 case 3:o=c
 q=new N.lg(p.L9(V.ahk(B.agS(U.afW(o.e).c.a.i(0,"charset")).cs(0,o.x))))
 s=1
@@ -55073,155 +55073,318 @@ N.Fr.prototype={}
 Q.a03.prototype={
 hs:function(c1){var s=0,r=P.ad(t.Hc),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0
 var $async$hs=P.a7(function(c2,c3){if(c2===1)return P.aa(c3,r)
-while(true)switch(s){case 0:b7=H.a([],t.F_)
-b8=t.N
+while(true)switch(s){case 0:b5=H.a([],t.F_)
 s=3
-return P.a9(G.agY(P.kA("https://www.kickalgor.com/club-rating/the-ka-football-club-global-rating-2021/",0,null),P.I(["content-type","application/json","Access-Control-Allow-Origin","https://andreisza1999.github.io"],b8,b8)),$async$hs)
-case 3:b9=c3
-c0=V.ahk(B.agS(U.afW(b9.e).c.a.i(0,"charset")).cs(0,b9.x))
+return P.a9(G.agY(P.kA("https://www.kickalgor.com/club-rating/the-ka-football-club-global-rating-2021/",0,null)),$async$hs)
+case 3:b6=c3
+b7=V.ahk(B.agS(U.afW(b6.e).c.a.i(0,"charset")).cs(0,b6.x))
 b8=t.s
-o=H.a([],b8)
-n=new B.P().N(0,c0,B.T(".row-2>.column-2"))
-n.toString
-m=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-3>.column-2"))
-n.toString
-l=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-4>.column-2"))
-n.toString
-k=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-5>.column-2"))
-n.toString
-j=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-6>.column-2"))
-n.toString
-i=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-7>.column-2"))
-n.toString
-h=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-8>.column-2"))
-n.toString
-g=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-9>.column-2"))
-n.toString
-f=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-10>.column-2"))
-n.toString
-e=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-11>.column-2"))
-n.toString
-d=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-12>.column-2"))
-n.toString
-c=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-13>.column-2"))
-n.toString
-b=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-14>.column-2"))
-n.toString
-a=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-15>.column-2"))
-n.toString
-a0=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-16>.column-2"))
-n.toString
-a1=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-17>.column-2"))
-n.toString
-a2=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-18>.column-2"))
-n.toString
-a3=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-19>.column-2"))
-n.toString
-a4=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-20>.column-2"))
-n.toString
-a5=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-21>.column-2"))
-n.toString
-a6=B.O(n)
-o.push(m)
-o.push(l)
-o.push(k)
-o.push(j)
-o.push(i)
-o.push(h)
-o.push(g)
-o.push(f)
-o.push(e)
-o.push(d)
-o.push(c)
-o.push(b)
-o.push(a)
-o.push(a0)
-o.push(a1)
-o.push(a2)
-o.push(a3)
-o.push(a4)
-o.push(a5)
-o.push(a6)
+b9=H.a([],b8)
+c0=new B.P().N(0,b7,B.T(".row-2>.column-2"))
+c0.toString
+o=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-3>.column-2"))
+c0.toString
+n=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-4>.column-2"))
+c0.toString
+m=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-5>.column-2"))
+c0.toString
+l=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-6>.column-2"))
+c0.toString
+k=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-7>.column-2"))
+c0.toString
+j=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-8>.column-2"))
+c0.toString
+i=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-9>.column-2"))
+c0.toString
+h=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-10>.column-2"))
+c0.toString
+g=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-11>.column-2"))
+c0.toString
+f=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-12>.column-2"))
+c0.toString
+e=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-13>.column-2"))
+c0.toString
+d=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-14>.column-2"))
+c0.toString
+c=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-15>.column-2"))
+c0.toString
+b=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-16>.column-2"))
+c0.toString
+a=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-17>.column-2"))
+c0.toString
+a0=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-18>.column-2"))
+c0.toString
+a1=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-19>.column-2"))
+c0.toString
+a2=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-20>.column-2"))
+c0.toString
+a3=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-21>.column-2"))
+c0.toString
+a4=B.O(c0)
+b9.push(o)
+b9.push(n)
+b9.push(m)
+b9.push(l)
+b9.push(k)
+b9.push(j)
+b9.push(i)
+b9.push(h)
+b9.push(g)
+b9.push(f)
+b9.push(e)
+b9.push(d)
+b9.push(c)
+b9.push(b)
+b9.push(a)
+b9.push(a0)
+b9.push(a1)
+b9.push(a2)
+b9.push(a3)
+b9.push(a4)
+a5=H.a([],b8)
+c0=new B.P().N(0,b7,B.T(".row-2>.column-4"))
+c0.toString
+o=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-3>.column-4"))
+c0.toString
+n=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-4>.column-4"))
+c0.toString
+m=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-5>.column-4"))
+c0.toString
+l=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-6>.column-4"))
+c0.toString
+k=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-7>.column-4"))
+c0.toString
+j=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-8>.column-4"))
+c0.toString
+i=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-9>.column-4"))
+c0.toString
+h=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-10>.column-4"))
+c0.toString
+g=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-11>.column-4"))
+c0.toString
+f=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-12>.column-4"))
+c0.toString
+e=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-13>.column-4"))
+c0.toString
+d=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-14>.column-4"))
+c0.toString
+c=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-15>.column-4"))
+c0.toString
+b=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-16>.column-4"))
+c0.toString
+a=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-17>.column-4"))
+c0.toString
+a0=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-18>.column-4"))
+c0.toString
+a1=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-19>.column-4"))
+c0.toString
+a2=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-20>.column-4"))
+c0.toString
+a3=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-21>.column-4"))
+c0.toString
+a4=B.O(c0)
+a5.push(o)
+a5.push(n)
+a5.push(m)
+a5.push(l)
+a5.push(k)
+a5.push(j)
+a5.push(i)
+a5.push(h)
+a5.push(g)
+a5.push(f)
+a5.push(e)
+a5.push(d)
+a5.push(c)
+a5.push(b)
+a5.push(a)
+a5.push(a0)
+a5.push(a1)
+a5.push(a2)
+a5.push(a3)
+a5.push(a4)
+a6=H.a([],b8)
+c0=new B.P().N(0,b7,B.T(".row-2>.column-7"))
+c0.toString
+o=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-3>.column-7"))
+c0.toString
+n=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-4>.column-7"))
+c0.toString
+m=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-5>.column-7"))
+c0.toString
+l=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-6>.column-7"))
+c0.toString
+k=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-7>.column-7"))
+c0.toString
+j=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-8>.column-7"))
+c0.toString
+i=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-9>.column-7"))
+c0.toString
+h=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-10>.column-7"))
+c0.toString
+g=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-11>.column-7"))
+c0.toString
+f=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-12>.column-7"))
+c0.toString
+e=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-13>.column-7"))
+c0.toString
+d=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-14>.column-7"))
+c0.toString
+c=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-15>.column-7"))
+c0.toString
+b=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-16>.column-7"))
+c0.toString
+a=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-17>.column-7"))
+c0.toString
+a0=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-18>.column-7"))
+c0.toString
+a1=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-19>.column-7"))
+c0.toString
+a2=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-20>.column-7"))
+c0.toString
+a3=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-21>.column-7"))
+c0.toString
+a4=B.O(c0)
+a6.push(o)
+a6.push(n)
+a6.push(m)
+a6.push(l)
+a6.push(k)
+a6.push(j)
+a6.push(i)
+a6.push(h)
+a6.push(g)
+a6.push(f)
+a6.push(e)
+a6.push(d)
+a6.push(c)
+a6.push(b)
+a6.push(a)
+a6.push(a0)
+a6.push(a1)
+a6.push(a2)
+a6.push(a3)
+a6.push(a4)
 a7=H.a([],b8)
-n=new B.P().N(0,c0,B.T(".row-2>.column-4"))
-n.toString
-m=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-3>.column-4"))
-n.toString
-l=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-4>.column-4"))
-n.toString
-k=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-5>.column-4"))
-n.toString
-j=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-6>.column-4"))
-n.toString
-i=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-7>.column-4"))
-n.toString
-h=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-8>.column-4"))
-n.toString
-g=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-9>.column-4"))
-n.toString
-f=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-10>.column-4"))
-n.toString
-e=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-11>.column-4"))
-n.toString
-d=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-12>.column-4"))
-n.toString
-c=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-13>.column-4"))
-n.toString
-b=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-14>.column-4"))
-n.toString
-a=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-15>.column-4"))
-n.toString
-a0=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-16>.column-4"))
-n.toString
-a1=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-17>.column-4"))
-n.toString
-a2=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-18>.column-4"))
-n.toString
-a3=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-19>.column-4"))
-n.toString
-a4=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-20>.column-4"))
-n.toString
-a5=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-21>.column-4"))
-n.toString
-a6=B.O(n)
+c0=new B.P().N(0,b7,B.T(".row-2>.column-10"))
+c0.toString
+o=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-3>.column-10"))
+c0.toString
+n=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-4>.column-10"))
+c0.toString
+m=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-5>.column-10"))
+c0.toString
+l=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-6>.column-10"))
+c0.toString
+k=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-7>.column-10"))
+c0.toString
+j=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-8>.column-10"))
+c0.toString
+i=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-9>.column-10"))
+c0.toString
+h=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-10>.column-10"))
+c0.toString
+g=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-11>.column-10"))
+c0.toString
+f=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-12>.column-10"))
+c0.toString
+e=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-13>.column-10"))
+c0.toString
+d=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-14>.column-10"))
+c0.toString
+c=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-15>.column-10"))
+c0.toString
+b=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-16>.column-10"))
+c0.toString
+a=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-17>.column-10"))
+c0.toString
+a0=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-18>.column-10"))
+c0.toString
+a1=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-19>.column-10"))
+c0.toString
+a2=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-20>.column-10"))
+c0.toString
+a3=B.O(c0)
+c0=new B.P().N(0,b7,B.T(".row-21>.column-10"))
+c0.toString
+a4=B.O(c0)
+a7.push(o)
+a7.push(n)
 a7.push(m)
 a7.push(l)
 a7.push(k)
@@ -55240,69 +55403,69 @@ a7.push(a1)
 a7.push(a2)
 a7.push(a3)
 a7.push(a4)
-a7.push(a5)
-a7.push(a6)
 a8=H.a([],b8)
-n=new B.P().N(0,c0,B.T(".row-2>.column-7"))
-n.toString
-m=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-3>.column-7"))
-n.toString
-l=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-4>.column-7"))
-n.toString
-k=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-5>.column-7"))
-n.toString
-j=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-6>.column-7"))
-n.toString
-i=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-7>.column-7"))
-n.toString
-h=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-8>.column-7"))
-n.toString
-g=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-9>.column-7"))
-n.toString
-f=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-10>.column-7"))
-n.toString
-e=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-11>.column-7"))
-n.toString
-d=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-12>.column-7"))
-n.toString
-c=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-13>.column-7"))
-n.toString
-b=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-14>.column-7"))
-n.toString
-a=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-15>.column-7"))
-n.toString
-a0=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-16>.column-7"))
-n.toString
-a1=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-17>.column-7"))
-n.toString
-a2=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-18>.column-7"))
-n.toString
-a3=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-19>.column-7"))
-n.toString
-a4=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-20>.column-7"))
-n.toString
-a5=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-21>.column-7"))
-n.toString
-a6=B.O(n)
+b8=new B.P().N(0,b7,B.T(".row-2>.column-11"))
+b8.toString
+o=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-3>.column-11"))
+b8.toString
+n=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-4>.column-11"))
+b8.toString
+m=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-5>.column-11"))
+b8.toString
+l=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-6>.column-11"))
+b8.toString
+k=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-7>.column-11"))
+b8.toString
+j=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-8>.column-11"))
+b8.toString
+i=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-9>.column-11"))
+b8.toString
+h=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-10>.column-11"))
+b8.toString
+g=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-11>.column-11"))
+b8.toString
+f=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-12>.column-11"))
+b8.toString
+e=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-13>.column-11"))
+b8.toString
+d=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-14>.column-11"))
+b8.toString
+c=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-15>.column-11"))
+b8.toString
+b=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-16>.column-11"))
+b8.toString
+a=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-17>.column-11"))
+b8.toString
+a0=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-18>.column-11"))
+b8.toString
+a1=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-19>.column-11"))
+b8.toString
+a2=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-20>.column-11"))
+b8.toString
+a3=B.O(b8)
+b8=new B.P().N(0,b7,B.T(".row-21>.column-11"))
+b8.toString
+a4=B.O(b8)
+a8.push(o)
+a8.push(n)
 a8.push(m)
 a8.push(l)
 a8.push(k)
@@ -55321,176 +55484,12 @@ a8.push(a1)
 a8.push(a2)
 a8.push(a3)
 a8.push(a4)
-a8.push(a5)
-a8.push(a6)
-a9=H.a([],b8)
-n=new B.P().N(0,c0,B.T(".row-2>.column-10"))
-n.toString
-m=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-3>.column-10"))
-n.toString
-l=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-4>.column-10"))
-n.toString
-k=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-5>.column-10"))
-n.toString
-j=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-6>.column-10"))
-n.toString
-i=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-7>.column-10"))
-n.toString
-h=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-8>.column-10"))
-n.toString
-g=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-9>.column-10"))
-n.toString
-f=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-10>.column-10"))
-n.toString
-e=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-11>.column-10"))
-n.toString
-d=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-12>.column-10"))
-n.toString
-c=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-13>.column-10"))
-n.toString
-b=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-14>.column-10"))
-n.toString
-a=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-15>.column-10"))
-n.toString
-a0=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-16>.column-10"))
-n.toString
-a1=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-17>.column-10"))
-n.toString
-a2=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-18>.column-10"))
-n.toString
-a3=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-19>.column-10"))
-n.toString
-a4=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-20>.column-10"))
-n.toString
-a5=B.O(n)
-n=new B.P().N(0,c0,B.T(".row-21>.column-10"))
-n.toString
-a6=B.O(n)
-a9.push(m)
-a9.push(l)
-a9.push(k)
-a9.push(j)
-a9.push(i)
-a9.push(h)
-a9.push(g)
-a9.push(f)
-a9.push(e)
-a9.push(d)
-a9.push(c)
-a9.push(b)
-a9.push(a)
-a9.push(a0)
-a9.push(a1)
-a9.push(a2)
-a9.push(a3)
-a9.push(a4)
-a9.push(a5)
-a9.push(a6)
-b0=H.a([],b8)
-b8=new B.P().N(0,c0,B.T(".row-2>.column-11"))
-b8.toString
-m=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-3>.column-11"))
-b8.toString
-l=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-4>.column-11"))
-b8.toString
-k=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-5>.column-11"))
-b8.toString
-j=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-6>.column-11"))
-b8.toString
-i=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-7>.column-11"))
-b8.toString
-h=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-8>.column-11"))
-b8.toString
-g=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-9>.column-11"))
-b8.toString
-f=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-10>.column-11"))
-b8.toString
-e=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-11>.column-11"))
-b8.toString
-d=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-12>.column-11"))
-b8.toString
-c=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-13>.column-11"))
-b8.toString
-b=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-14>.column-11"))
-b8.toString
-a=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-15>.column-11"))
-b8.toString
-a0=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-16>.column-11"))
-b8.toString
-a1=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-17>.column-11"))
-b8.toString
-a2=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-18>.column-11"))
-b8.toString
-a3=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-19>.column-11"))
-b8.toString
-a4=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-20>.column-11"))
-b8.toString
-a5=B.O(b8)
-b8=new B.P().N(0,c0,B.T(".row-21>.column-11"))
-b8.toString
-a6=B.O(b8)
-b0.push(m)
-b0.push(l)
-b0.push(k)
-b0.push(j)
-b0.push(i)
-b0.push(h)
-b0.push(g)
-b0.push(f)
-b0.push(e)
-b0.push(d)
-b0.push(c)
-b0.push(b)
-b0.push(a)
-b0.push(a0)
-b0.push(a1)
-b0.push(a2)
-b0.push(a3)
-b0.push(a4)
-b0.push(a5)
-b0.push(a6)
-for(b8=p.b,n=p.a,b1=0;b1<o.length;++b1){b2=o[b1]
-b3=a7[b1]
-b4=a8[b1]
-b5=a9[b1]
-b6=b0[b1]
-b7.push(new Q.jR(b2,b3,b3,b4,b5,H.aht(b6,"00","",0),b8.i(0,o[b1]),n.i(0,o[b1])))}q=b7
+for(b8=p.b,c0=p.a,a9=0;a9<b9.length;++a9){b0=b9[a9]
+b1=a5[a9]
+b2=a6[a9]
+b3=a7[a9]
+b4=a8[a9]
+b5.push(new Q.jR(b0,b1,b1,b2,b3,H.aht(b4,"00","",0),b8.i(0,b9[a9]),c0.i(0,b9[a9])))}q=b5
 s=1
 break
 case 1:return P.ab(q,r)}})
@@ -58586,7 +58585,6 @@ nz:function(a,b,c){return this.YE(a,b,c)},
 YE:function(a,b,c){var s=0,r=P.ad(t.Wd),q,p=this,o,n
 var $async$nz=P.a7(function(d,e){if(d===1)return P.aa(e,r)
 while(true)switch(s){case 0:o=O.ap6(a,b)
-if(c!=null)o.r.K(0,c)
 n=U
 s=3
 return P.a9(p.eN(0,o),$async$nz)
